@@ -19,7 +19,7 @@ public class ABServiceTest {
 	@Test
 	public void test_case_for_authanticateUser_method_if_correct_Return_User_object() {
 		
-		assertArrayEquals(aBService.authanticateUser("a", "a"), User.class);
+		assertArrayEquals(aBService.authanticateUser("ab", "a"), User.class);
 	}
 
 }
